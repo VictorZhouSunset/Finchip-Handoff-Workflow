@@ -9,10 +9,7 @@ import {
   ArrowRight, 
   ArrowLeft, 
   RotateCcw,
-  Copy,
-  Terminal,
-  ShieldCheck,
-  CheckCircle2
+  Copy
 } from 'lucide-react';
 
 const HandoffDemo = () => {
@@ -113,7 +110,7 @@ const HandoffDemo = () => {
           <div className="flex flex-col items-center p-8 rounded-[3rem] bg-white/[0.03] border border-white/10 backdrop-blur-2xl shadow-2xl relative group">
             <div className="absolute -top-5 left-1/2 -translate-x-1/2 bg-white/15 border border-white/20 px-6 py-1.5 rounded-full flex items-center gap-2">
               <Monitor size={14} className="text-blue-400" />
-              <span className="text-xs font-black text-white uppercase tracking-widest">Gary's PC</span>
+              <span className="text-xs font-black text-white uppercase tracking-widest">Gary&apos;s PC</span>
             </div>
             
             <div className="flex justify-between w-full gap-8 mt-4">
@@ -163,7 +160,7 @@ const HandoffDemo = () => {
             <div className={`p-6 rounded-[2rem] border-2 transition-all duration-700 ${[5, 6].includes(currentStep) ? 'border-purple-500 bg-purple-500/20 glow-purple' : 'border-white/5 bg-white/5 opacity-40'}`}>
               <Monitor className={[5, 6].includes(currentStep) ? 'text-purple-400' : 'text-gray-700'} size={56} />
             </div>
-            <span className="text-sm font-bold text-gray-400 uppercase tracking-widest">Victor's PC</span>
+            <span className="text-sm font-bold text-gray-400 uppercase tracking-widest">Victor&apos;s PC</span>
           </div>
         </div>
 
